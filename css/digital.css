@@ -330,7 +330,7 @@ a:link {
     .grid-item:nth-child(1) {
         grid-column: 1/2;
         grid-row: 1/9;
-        height: 100vh;
+        height: 120vh;
     }
     /* spiderman */
     .grid-item:nth-child(2){
