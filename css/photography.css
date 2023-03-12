@@ -380,7 +380,7 @@ a:link {
 
     .grid-item:nth-child(6) {
         grid-area: img6;
-        height: 40vh;
+        height: 100vh;
     }
 
     .grid-item:nth-child(7) {
