@@ -158,6 +158,8 @@ footer {
     background-color: black;
 }
 
+  
+
 footer p {
     font-size: 10px;
 }
@@ -239,7 +241,7 @@ footer p {
 }
 
 .grid-item:nth-child(10) {
-    background: url("../images/lilmans.png") no-repeat center top;
+    background: url("../images/monster.JPG") no-repeat center top;
     background-size: cover;
     grid-column: 5/10;
     grid-row: 7/11;
@@ -312,6 +314,7 @@ a:link {
         grid-template-rows: repeat(33, 1fr);
         grid-column: auto;
         grid-row: auto;
+        gap: 1px;
         grid-template-areas: 
         "img1 img1 img1 img1 img1 img1 img1"
         "img1 img1 img1 img1 img1 img1 img1"
@@ -351,44 +354,58 @@ a:link {
 
     .grid-item:nth-child(1) {
         grid-area: img1;
+        height: 40vh;
     }
 
     .grid-item:nth-child(2){
         grid-area: img2;
+        height: 40vh;
+
     }
 
     .grid-item:nth-child(3) {
         grid-area: img3;
+        height: 40vh;
     }
 
     .grid-item:nth-child(4){
         grid-area: img4;
+        height: 40vh;
     }
 
     .grid-item:nth-child(5) {
         grid-area: img5;
+        height: 40vh;
     }
 
     .grid-item:nth-child(6) {
         grid-area: img6;
+        height: 40vh;
     }
 
     .grid-item:nth-child(7) {
         grid-area: img7;
+        height: 40vh;
     }
 
     .grid-item:nth-child(8) {
         grid-area: img8;
+        height: 40vh;
     }
 
     .grid-item:nth-child(9) {
         grid-area: img9;
+        height: 40vh;
     }
 
     .grid-item:nth-child(10) {
         grid-area: img10;
+        height: 40vh;
     }
 
+    footer {
+        display: none;
+    }
 
 }
 
