@@ -43,7 +43,7 @@ nav {
 .skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    margin: 2rem;
     color: white;
     font-family: 'squidofgames', sans-serif;
 }
@@ -52,6 +52,7 @@ nav {
 
 .education {
     color: white;
+    margin: 1rem;
 }
 
 ul {
