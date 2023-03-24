@@ -116,7 +116,7 @@ main {
 }
 
 .mainpage {
-    background: green url("../images/red-back.jpg") no-repeat center top;
+    background: green url("../images/black.jpg") no-repeat center top;
     background-size: cover;
 
 }

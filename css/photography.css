@@ -234,14 +234,14 @@ footer p {
 }
 
 .grid-item:nth-child(9) {
-    background: url("../images/ty.jpg") no-repeat center top;
+    background: url("../images/monster.JPG") no-repeat center top;
     background-size: cover;
     grid-column: 1/5;
     grid-row: 7/11;
 }
 
 .grid-item:nth-child(10) {
-    background: url("../images/monster.JPG") no-repeat center top;
+    background: url("../images/duo-chargers.JPG") no-repeat center top;
     background-size: cover;
     grid-column: 5/10;
     grid-row: 7/11;
@@ -354,28 +354,28 @@ a:link {
 
     .grid-item:nth-child(1) {
         grid-area: img1;
-        height: 40vh;
+        height: 60vh;
     }
 
     .grid-item:nth-child(2){
         grid-area: img2;
-        height: 40vh;
+        height: 60vh;
 
     }
 
     .grid-item:nth-child(3) {
         grid-area: img3;
-        height: 40vh;
+        height: 60vh;
     }
 
     .grid-item:nth-child(4){
         grid-area: img4;
-        height: 40vh;
+        height: 60vh;
     }
 
     .grid-item:nth-child(5) {
         grid-area: img5;
-        height: 40vh;
+        height: 80vh;
     }
 
     .grid-item:nth-child(6) {
@@ -385,12 +385,12 @@ a:link {
 
     .grid-item:nth-child(7) {
         grid-area: img7;
-        height: 40vh;
+        height: 60vh;
     }
 
     .grid-item:nth-child(8) {
         grid-area: img8;
-        height: 40vh;
+        height: 60vh;
     }
 
     .grid-item:nth-child(9) {
@@ -400,7 +400,7 @@ a:link {
 
     .grid-item:nth-child(10) {
         grid-area: img10;
-        height: 40vh;
+        height: 60vh;
     }
 
     footer {
