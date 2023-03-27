@@ -172,6 +172,7 @@ footer p {
     grid-column: 2/3;
     grid-row: 1/3;
     gap: 2px;
+    height: 120vh;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(8, 1fr);
 }
@@ -198,14 +199,14 @@ footer p {
 }
 
 .grid-item:nth-child(4) {
-    background: url('../images/key-1.jpg') no-repeat center top;
+    background: url('../images/adrain.jpg') no-repeat center top;
     background-size: cover;
     grid-column: 1/3;
     grid-row: 3/5;
 }
 
 .grid-item:nth-child(5) {
-    background:url('../images/coin-3.jpg') no-repeat center top;
+    background:url('../images/skull-ring.jpg') no-repeat center top;
     background-size: cover;
     grid-column: 3/5;
     grid-row: 3/5;
@@ -219,7 +220,7 @@ footer p {
 }
 
 .grid-item:nth-child(7) {
-    background: url("../images/skull-ring.jpg") no-repeat center top;
+    background: url("../images/key-1.jpg") no-repeat center top;
     background-size: cover;
     grid-column: 1/3;
     grid-row: 5/7;
