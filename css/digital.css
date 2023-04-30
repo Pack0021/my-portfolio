@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'sat-august';
+    src: url(../fonts/Saturday\ August.ttf);
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -26,6 +32,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'sat-august';
 }
 
 
@@ -53,7 +60,7 @@ a {
 nav img {
     display: flex;
     border-radius: 80%;
-    border:rgb(233, 222, 222) solid 0.5px;
+    /* border:rgb(233, 222, 222) solid 0.5px; */
     width: 60%;
     margin-bottom: 25px;
 }
@@ -300,7 +307,7 @@ a:link {
 
 /* -------- Moblie Layout ------- */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     body {
         display: grid;
         grid-template-columns: 100%;

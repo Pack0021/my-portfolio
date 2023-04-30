@@ -19,6 +19,12 @@
     font-weight: 100;
 }
 
+@font-face {
+    font-family: 'sat-august';
+    src: url(../fonts/Saturday\ August.ttf);
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -52,6 +58,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'sat-august';
 }
 
 h3 {
@@ -79,7 +86,6 @@ main {
 nav img {
     display: flex;
     border-radius: 80%;
-    border:rgb(233, 222, 222) solid 0.5px;
     width: 60%;
     margin-bottom: 25px;
 }
@@ -245,7 +251,7 @@ footer p {
 @media screen and (max-width: 760px) {
     nav {
         margin: 0;
-        background: url("../images/main-thom.jpg") no-repeat center top;
+        background: url('../images/moon.gif') no-repeat center top;
         background-size: cover;
         flex-direction: row;
         height: 100vh;
@@ -268,7 +274,6 @@ footer p {
     nav img {
         display: flex;
         border-radius: 80%;
-        border:rgb(233, 222, 222) solid 0.5px;
         width: 30%;
     }
     
