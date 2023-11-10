@@ -130,7 +130,7 @@ main {
 }
 
 .mainpage {
-    background: green url("../images/black-white-page.jpg") no-repeat center top;
+    background: url("../images/black-white-page.jpg") no-repeat center top;
     background-size: cover;
 
 }
