@@ -38,12 +38,14 @@ nav {
     color: white;
     font-family: 'squidofgames', sans-serif;
     font-size: 60px;
+    font-weight: bold;
 }
 
 .ed {
     color: white;
     font-family: 'squidofgames', sans-serif;
     font-size: 60px;
+    font-weight: bold;
 }
 
 .skills {
@@ -52,6 +54,7 @@ nav {
     margin: 2rem;
     color: white;
     font-family: 'squidofgames', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -101,6 +104,7 @@ h4 {
     color: white;
     font-size: 20px;
     margin: 1rem;
+    font-weight: bold;
 
 }
 
@@ -270,6 +274,10 @@ footer p {
     margin: 0 auto;
 }
 
+.fa-video {
+    color: white;
+    margin: 1rem;
+}
 
 .fa-user {
     color: white;
