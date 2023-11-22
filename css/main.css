@@ -42,12 +42,7 @@ body {
     height: 100vh;
 }
 
-nav {
-    padding: 1rem;
-    height: 100%;
-    background-color: black;
-    flex-direction: column;
-}
+
 
 h1 {
     margin: 0;
@@ -55,19 +50,6 @@ h1 {
     font-size: 60px;
     font-family: 'squidofgames', sans-serif;
 }
-
-h2 {
-    text-align: center;
-    font-family: 'sat-august';
-    font-size: 45px;
-}
-
-/* h3 {
-    margin: 0;
-    color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
-} */
 
 
 
@@ -82,24 +64,6 @@ main {
     background-size: cover;
 }
 
-/* -------- Logo Image ------- */
-
-nav img {
-    display: flex;
-    border-radius: 80%;
-    width: 60%;
-    margin-bottom: 25px;
-}
-
-nav a:link img {
-    margin: auto;
-}
-
-/* ---- itsyaboythom Nav Header ---- */
-
-h2 {
-    color: white;
-}
 
 /* ------ Social Media Links ------ */
 
@@ -186,25 +150,67 @@ h2 {
 }
 
 
-/* ------- Page Links Settings ----- */
+/* ------- Links Settings ----- */
 
 
 .links {
     display: flex;
-    font-size: 20px;
+    font-size: 17px;
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
 }
 
 .links i {
-    min-width: 25px;
+    min-width: 20px;
 }
 
 a {
     text-decoration: none;
+    font-family: 'squidofgames';
     color: white;
-} 
+}
+
+a[href="about.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="digital.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="photography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="videography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="contact.html"]:hover {
+    opacity: 0.7;
+}
+
+/* ---- Nav Header ---- */
+
+nav {
+    padding: 1rem;
+    background-color: black;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'sat-august';
+    font-size: 45px;
+}
+
+h2:hover {
+    opacity: 0.7;
+}
+
+/* ----- Link Icons ----- */
 
 .fa-user {
     color: white;

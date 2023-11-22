@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'squidofgames';
+    src: url(../fonts/Game\ Of\ Squids.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
     font-family: 'sat-august';
     src: url(../fonts/Saturday\ August.ttf);
     font-style: normal;
@@ -19,27 +26,23 @@ body {
     height: 100vh;
 }
 
-nav {
-    padding: 1rem;
-    background-color: black;
-    flex-direction: column;
-}
 
-h1 {
-    margin: 0;
-    color: white;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'sat-august';
-    font-size: 45px;
-}
 
 
 h3 {
     color: white;
 }
+
+/* ----- Links Settings ----- */
+
+.links {
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 
 .links i {
     min-width: 25px;
@@ -48,32 +51,47 @@ h3 {
 a {
     text-decoration: none;
     color: white;
+    font-family: 'squidofgames';
 } 
 
-.links a:link {
-    font-family:'Times New Roman', Times, serif;
+a[href="about.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="digital.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="photography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="videography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="contact.html"]:hover {
+    opacity: 0.7;
 }
 
 
+/* ---- Nav Header ---- */
 
-/* -------- Logo Image ------- */
-
-nav img {
-    display: flex;
-    border-radius: 80%;
-    /* border:rgb(233, 222, 222) solid 0.5px; */
-    width: 60%;
-    margin-bottom: 25px;
+nav {
+    padding: 1rem;
+    background-color: black;
+    flex-direction: column;
 }
-
-nav a:link img {
-    margin: auto;
-}
-
-/* ---- itsyaboythom Nav Header ---- */
 
 h2 {
     color: white;
+    text-align: center;
+    font-family: 'sat-august';
+    font-size: 45px;
+}
+
+h2:hover {
+    opacity: 0.7;
 }
 
 /* ------ Social Media Links ------ */
@@ -259,17 +277,6 @@ footer p {
 
 /* ------- Page Links Settings ----- */
 
-.links {
-    display: flex;
-    font-size: 20px;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-a:link {
-    text-decoration: none;  
-} 
 
 
 .fa-user {

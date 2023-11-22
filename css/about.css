@@ -23,16 +23,19 @@ body {
     grid-template-rows: auto auto;
     height: 100vh;
 }
+/* ----- Main Page ----- */
 
-
-nav {
-    padding: 1rem;
-    height: 100%;
-    background-color: black;
-    flex-direction: column;
+main {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/3;
 }
 
-/* main topic classes */
+.mainpage {
+    background: url("../images/black-white-page.jpg") no-repeat center top;
+    background-size: cover;
+
+}
 
 .abo {
     color: white;
@@ -81,11 +84,6 @@ h1 {
     font-family: 'squidofgames', sans-serif;
 }
 
-h2 {
-    text-align: center;
-    font-family: 'sat-august';
-    font-size: 45px;
-}
 
 h3 {
     font-size: 30px;
@@ -94,7 +92,7 @@ h3 {
 h4 {
     font-size: 20px;
 }
-/* about body classes settings */
+
 .about {
     margin: 1rem;
 }
@@ -108,64 +106,68 @@ h4 {
 
 }
 
+/* ----- Link Settings ----- */
 
+.links {
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
 
 .links i {
-    min-width: 25px;
+    min-width: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-family: 'squidofgames';
 } 
 
-
-
-
-.links a:link {
-    font-family:'Times New Roman', Times, serif;
-}
-
-
-main {
-    text-align: center;
-    grid-column: 2/3;
-    grid-row: 1/3;
-}
-
-.mainpage {
-    background: url("../images/black-white-page.jpg") no-repeat center top;
-    background-size: cover;
-
-}
-
-/* ------ Logo Image Nav ------- */
-
-nav img {
-    display: flex;
-    border-radius: 80%;
-    /* border:rgb(233, 222, 222) solid 0.5px; */
-    width: 60%;
-    margin-bottom: 25px;
-}
-
-
-nav a:link img {
-    margin: auto;
-}
-
-/* ----- thomdoit Nav Header -----*/
-
-.thomdoit {
-    color: white;
-    text-align: center;
-}
-
-/* ------ Social Media Links ------ */
-
-.fa:hover {
+a[href="about.html"]:hover {
     opacity: 0.7;
 }
+
+a[href="digital.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="photography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="videography.html"]:hover {
+    opacity: 0.7;
+}
+
+a[href="contact.html"]:hover {
+    opacity: 0.7;
+}
+
+
+/* ---- Nav Header ---- */
+
+nav {
+    padding: 1rem;
+    background-color: black;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'sat-august';
+    font-size: 45px;
+}
+
+h2:hover {
+    opacity: 0.7;
+}
+
+
+/* ------ Social Media Links ------ */
 
 .fa {
     padding: 10px;
@@ -174,6 +176,10 @@ nav a:link img {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
 
 .fab:hover {
@@ -266,13 +272,6 @@ footer p {
 
 /* ------- Page Links Settings ----- */
 
-.links {
-    display: flex;
-    font-size: 20px;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-}
 
 .fa-video {
     color: white;
