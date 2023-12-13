@@ -19,6 +19,7 @@
 body {
     margin: 0;
     display: grid;
+    background-color: black;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto auto;
     height: 100vh;
@@ -110,6 +111,7 @@ h4 {
 
 .links {
     display: flex;
+    text-align: center;
     font-size: 17px;
     flex-direction: column;
     max-width: 300px;
@@ -264,10 +266,11 @@ footer {
     text-align: center;
     color: white;
     background-color: black;
+    margin-top: auto;
 }
 
 footer p {
-      font-size: 10px;
+      font-size: 8px;
 }
 
 /* ------- Page Links Settings ----- */
