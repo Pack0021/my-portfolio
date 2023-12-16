@@ -292,7 +292,7 @@ footer p {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
     .mainpage {
         grid-column: 1/2;
         grid-row: 2/2;
