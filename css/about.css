@@ -16,6 +16,10 @@
     font-family: sans-serif;
 }
 
+div {
+    margin-top: 1rem;
+}
+
 body {
     margin: 0;
     display: grid;
@@ -292,11 +296,10 @@ footer p {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .mainpage {
         grid-column: 1/2;
-        grid-row: 2/2;
-        text-align: center;
+        grid-row: 2/3;
     }
 
     .socialmedia {
@@ -306,10 +309,8 @@ footer p {
     body {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: repeat(10, 1fr) ;
-        text-align: center;
+        grid-template-rows: auto;
     }
-    
 
     .about {
         display: inline;

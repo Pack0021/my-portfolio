@@ -321,6 +321,7 @@ footer p {
     .socialmedia {
         display: block;
         text-align: center;
+        padding: 0;
     }
 
 

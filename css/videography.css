@@ -255,6 +255,7 @@ footer p {
 
     .socialmedia {
         display: inline;
+        padding: 0;
     }
     
     .grid-container {
