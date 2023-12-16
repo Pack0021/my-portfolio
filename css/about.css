@@ -33,7 +33,7 @@ main {
 }
 
 .mainpage {
-    background: url("../images/space-3.gif") no-repeat center top;
+    background: url("../images/spaceman.jpg") no-repeat center top;
     background-size: cover;
 
 }
@@ -73,7 +73,7 @@ ul {
     padding-left: 0;
 }
 
-li {
+ol {
     font-size: 20px;
     margin: 1rem;
 }
