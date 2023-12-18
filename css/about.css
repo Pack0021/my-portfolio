@@ -32,18 +32,17 @@ main {
     grid-row: 1/3;
 }
 
+h3 {
+    font-size: 30px;
+    font-family: bold;
+}
+
 .mainpage {
     background: url("../images/space-3.gif") no-repeat center top;
     background-size: cover;
 
 }
 
-.abo {
-    color: white;
-    font-family: 'squidofgames', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-}
 
 .ed {
     color: white;
@@ -60,7 +59,12 @@ main {
     font-weight: bold;
 }
 
-
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    font-weight: bold;
+}
 
 .education {
     color: white;
@@ -86,9 +90,6 @@ h1 {
 }
 
 
-h3 {
-    font-size: 30px;
-}
 
 h4 {
     font-size: 20px;
