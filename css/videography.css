@@ -225,7 +225,6 @@ footer p {
 }
 
 
-
 /* ------- Page Links Settings ----- */
 
 
@@ -292,6 +291,9 @@ footer p {
         "img1 img1"
         "img1 img1"
         "img1 img1"
+        "img1 img1"
+        "img1 img1"
+        "img1 img1"
         "img2 img2"
         "img2 img2"
         "img2 img2"
@@ -307,7 +309,12 @@ footer p {
         "img6 img6"
         "img6 img6"
         "img6 img6"
-        "img6 img6"
+        "img7 img7"
+        "img7 img7"
+        "img7 img7"
+        "img8 img8"
+        "img8 img8"
+        "img8 img8"
         ;
     }
 
@@ -338,6 +345,16 @@ footer p {
 
     .grid-item:nth-child(6) {
         grid-area: img6;
+        height: 50vh;
+    }
+
+    .grid-item:nth-child(7) {
+        grid-area: img7;
+        height: 50vh;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-area: img8;
         height: 50vh;
     }
     
