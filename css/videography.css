@@ -29,16 +29,6 @@ body {
 }
 
 
-h1 {
-    margin: 0;
-    color: white;
-}
-
-
-
-h3 {
-    color: white;
-}
 
 /* -----NAV Bar Link Settings----- */
 
@@ -224,6 +214,28 @@ footer p {
     grid-template-rows: repeat(3, 1fr);
 }
 
+.grid-item {
+    text-align: center;
+}
+
+.grid-item h3 {
+font-size: 1.5em;
+color: white;
+margin-bottom: 10px;
+}
+
+.grid-item video {
+display: block;
+margin: 0 auto 15px;
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /* ------- Page Links Settings ----- */
 
@@ -265,14 +277,16 @@ footer p {
     margin: 1rem;
 }
 
-
-
 @media screen and (max-width: 750px) {
     body {
         grid-template-columns: 100%;
         grid-template-rows: auto 1500px;
         text-align: center;
 
+    }
+
+    h3 {
+        padding: 1rem;
     }
 
     .socialmedia {
@@ -289,73 +303,46 @@ footer p {
         gap: 3px;
         grid-template-areas: 
         "img1 img1"
-        "img1 img1"
-        "img1 img1"
-        "img1 img1"
-        "img1 img1"
-        "img1 img1"
-        "img2 img2"
-        "img2 img2"
         "img2 img2"
         "img3 img3"
-        "img3 img3"
-        "img3 img3"
-        "img4 img4"
-        "img4 img4"
         "img4 img4"
         "img5 img5"
-        "img5 img5"
-        "img5 img5"
-        "img6 img6"
-        "img6 img6"
         "img6 img6"
         "img7 img7"
-        "img7 img7"
-        "img7 img7"
-        "img8 img8"
-        "img8 img8"
         "img8 img8"
         ;
     }
 
     .grid-item:nth-child(1) {
         grid-area: img1;
-        height: 50vh;
     }
 
     .grid-item:nth-child(2){
         grid-area: img2;
-        height: 50vh;
     }
 
     .grid-item:nth-child(3) {
         grid-area: img3;
-        height: 50vh;
     }
 
     .grid-item:nth-child(4){
         grid-area: img4;
-        height: 50vh;
     }
 
     .grid-item:nth-child(5) {
         grid-area: img5;
-        height: 50vh;
     }
 
-    .grid-item:nth-child(6) {
+    .grid-item:nth-child(6) {   
         grid-area: img6;
-        height: 50vh;
     }
 
     .grid-item:nth-child(7) {
         grid-area: img7;
-        height: 50vh;
     }
 
     .grid-item:nth-child(8) {
         grid-area: img8;
-        height: 50vh;
     }
     
     footer {

@@ -190,25 +190,27 @@ footer p {
 
 
 
-/* --Business Card-- */
-.grid-item:nth-child(1){
-    background: url("../images/ninja-logo.png" ) no-repeat center top;
-    background-size: cover;
-    grid-column: 1/3;
-    grid-row: 1/3;
-
+/* --Security Company Logo-- */
+.grid-item:nth-child(1) {
+background-image: url("../images/ninja-logo.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain; /* Keeps the image contained within the grid item */
+grid-column: 1/3;
+grid-row: 1/3;
 }
 
 /* --My Logo-- */
-.grid-item:nth-child(2){
-    background: url("../images/logo.png" ) no-repeat center top;
-    background-size: cover;
-    grid-column: 3/5;
-    grid-row: 1/3;
-
+.grid-item:nth-child(2) {
+background-image: url("../images/logo.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain; /* Keeps the image contained within the grid item */
+grid-column: 3/5;
+grid-row: 1/3;
 }
 
-/* --Action Poster-- */
+
 .grid-item:nth-child(3) {
     background: url("../images/thom-victor.jpg") no-repeat center top;
     background-size: cover;
@@ -217,7 +219,6 @@ footer p {
 }
 
 
-/* --Concept Art-- */
 .grid-item:nth-child(5){
     background: url("../images/spiderman.png") no-repeat center top;
     background-size: cover;
@@ -225,7 +226,6 @@ footer p {
     grid-row: 3/5;
 }
 
-/* --Mom's Logo-- */
 .grid-item:nth-child(6){
     background: url("../images/drawing-up.JPG") no-repeat center top;
     background-size: cover;
@@ -233,7 +233,6 @@ footer p {
     grid-row: 4/7;
 }
 
-/* --safeirl logo-- */
 .grid-item:nth-child(7){
     background: url("../images/cartoon-me.jpg") no-repeat center top;
     background-size: cover;
@@ -250,7 +249,6 @@ footer p {
     
 }
 
-/* --Spiderman-- */
 .grid-item:nth-child(9){
     background: url("../images/business-card.png") no-repeat center top;
     background-size: cover;
@@ -258,7 +256,6 @@ footer p {
     grid-row: 7/11;
 }
 
-/* --Dragonfly Logo-- */
 .grid-item:nth-child(10){
     background: url("../images/dragonfly.png") no-repeat center top;
     background-size: cover;
@@ -381,8 +378,11 @@ footer p {
     }
 
     .grid-item:nth-child(9) {
-        grid-area: img9;
     }
+
+    .grid-item:nth-child(10) {
+    }
+
 
     footer {
         display: none;
