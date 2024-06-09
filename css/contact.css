@@ -52,6 +52,7 @@ main {
     display: grid;
     grid-column: 2/3;
     grid-row: 1/3;
+    border: 1px solid white;
 }
 
 /* ----- Link Settings in Nav ----- */

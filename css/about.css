@@ -38,8 +38,10 @@ h3 {
 }
 
 .mainpage {
-    background: url("../images/space-3.gif") no-repeat center top;
+    /* background: url("../images/palm-tree-leaves-original-iphone-7-u4c70q87lncbgsn1.webp") no-repeat center top;  */
+    background-color: black;
     background-size: cover;
+    border: 1px solid white;
 
 }
 
